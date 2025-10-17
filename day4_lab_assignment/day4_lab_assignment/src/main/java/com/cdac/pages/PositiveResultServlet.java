@@ -1,0 +1,62 @@
+package com.cdac.pages;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class PositiveResultServlet
+ */
+
+@WebServlet("/positive_result")
+public class PositiveResultServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setContentType("text/html");
+
+		try (PrintWriter pw = response.getWriter()) {
+			pw.print("<h4> Welcome to Positive result DAshboard....</h4>");
+
+//			String resultval = null;
+
+			Cookie[] cookies = request.getCookies();
+
+//			if (cookies != null) {
+//				for (Cookie c : cookies) {
+//					if (c.getName().equals("positive_result_detail")) {
+//						resultval = c.getValue();
+//						break;
+//					}
+//
+//				}
+//			}
+
+//			if (resultval != null) {
+//				pw.print("<h5>Result is - " + resultval + "</h5>");
+//			} else {
+//
+//				pw.print("<h5>no result found</h5>");
+//			}
+			
+			if(cookies!=null) {
+				pw.print("<h5>Result is "+ cookies[0].getValue()+ "</h5>");
+			}else {
+				pw.print("<h5>NOt valid </h5>");
+			}
+		}
+
+	}
+
+}
