@@ -50,11 +50,12 @@
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day4_data\day4_data\code\day4.2"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day5_data\day5_data\code\day5.1"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day4_data\day4_data\code\day4.1"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\workspace\day4.2"/>
@@ -76,5 +77,14 @@
 		<item key="DIALOG_WIDTH" value="500"/>
 		<item key="DIALOG_HEIGHT" value="389"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+		<section name="BasicNewProjectResourceWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="165"/>
+			<item key="DIALOG_Y_ORIGIN" value="90"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
 	</section>
 </section>

@@ -56,7 +56,7 @@ public class Calculate extends HttpServlet {
 					
 		
 		}
-				out.print("<h5>REsult of "+action+" is - "+result+ "</h5>");
+				out.print("<h5>Result of "+action+" is - "+result+ "</h5>");
 		
 		
 	}

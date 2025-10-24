@@ -20,14 +20,14 @@ public class patientLoginServlet extends HttpServlet {
 	 * @see Servlet#init()
 	 */
 	public void init() throws ServletException {
-		// create patient dao instance
+		System.out.println("in init "+getClass());
 	}
 
 	/**
 	 * @see Servlet#destroy()
 	 */
 	public void destroy() {
-		// patient cleanup
+		System.out.println("in destroy "+getClass());
 	}
 
 	/**
