@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="jdk.swing.interop.SwingInterOpUtils"/>
     <fullyQualifiedTypeName name="java.awt.Button"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.pojo.User"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
