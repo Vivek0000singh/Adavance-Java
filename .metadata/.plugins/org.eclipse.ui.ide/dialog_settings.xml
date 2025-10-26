@@ -55,6 +55,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day8_data\day8_data\code\day8_mvc"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day7_data\day7_data\code\day7.1"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day4_data\day4_data\code\day4.2"/>
 			<item value="C:\Users\vivek\OneDrive\Desktop\Adavanced java\studymaterial\day5_data\day5_data\code\day5.1"/>

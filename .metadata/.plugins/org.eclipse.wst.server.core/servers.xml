@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost" name="Tomcat v10.1 Server at localhost" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="35">
-    <list key="modules" value0="day7_lab::org.eclipse.jst.jee.server:day7_lab::jst.web::6.0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.1 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.1 Server at localhost" name="Tomcat v10.1 Server at localhost" runtime-id="Apache Tomcat v10.1" server-type="org.eclipse.jst.server.tomcat.101" server-type-id="org.eclipse.jst.server.tomcat.101" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="36">
+    <list key="modules" value0="day8_mvc::org.eclipse.jst.jee.server:day8_mvc::jst.web::6.0"/>
   </server>
 </servers>
