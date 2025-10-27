@@ -28,7 +28,7 @@
 				<td>${app.appointmentId}</td>
 				<td>${app.appointmentTS}</td>
 				<td>${app.docName}</td>
-				<td><a href="appointments?action=cancel&id=${app.appointmentId }">CancelButton</a></td>
+				<td> <a href="appointments?action=cancel&id=${app.appointmentId }"><button>Cancel</button></a></td>
 
 			</tr>
 		</c:forEach>
@@ -40,7 +40,7 @@
 		<a href="appointments?action=show_form">Book new Appointment </a>
 	</h5>
 	<h5>
-		<a href="logOut.jsp">Log Out</a>
+		<a href="logout">Log Out</a>
 	</h5>
 
 </body>

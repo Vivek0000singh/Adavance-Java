@@ -1,20 +1,19 @@
 package com.healthcare.pages;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
-
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 import com.healthcare.dao.AppointmentDao;
 import com.healthcare.dao.AppointmentDaoImpl;
 import com.healthcare.pojos.Patient;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class AppointmentsServlet
